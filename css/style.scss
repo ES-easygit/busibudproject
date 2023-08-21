@@ -1,0 +1,228 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+hr{
+  margin-top: -5px;
+}
+
+.para-one{
+  width: 85%;
+}
+.top{
+   position: relative;
+   z-index: 10;
+}
+.wave-part{
+   position: relative;
+   width: 100%;
+   top: -270px;
+   z-index: 20;
+
+>button{
+  background-color: #1492E6;
+  color: white;
+  position:relative;
+  z-index: 35;
+  border-radius: 40px;
+  top: -250px;
+  left: 110px;
+  width: 15%;
+  height: 60px;
+}
+}
+
+.grey-part{
+  width: 100%;
+  height: 80%;
+  background-color: #f3f4f5;
+  position:relative;
+  z-index: 45;
+  justify-content: center;
+  text-align: center;
+  top: -150px;
+}
+.wave-two{
+  position: relative;
+  z-index: 45;
+}
+.card-two{
+  position:relative;
+  z-index: 55;
+  top: -350px;
+  mix-blend-mode: multiply
+}
+  .pics{
+    width: 250px;
+    height: 200px;
+    border: none;
+    padding-left: 1rem;
+  }
+
+  .heading-three{
+    text-align: center;
+    margin-top: -150px;
+  }
+  .logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+  }
+  .logo-card{
+    margin-top: 4rem;
+  }
+  .click{
+    background-color: #1492E6;
+    color: white;
+    border-radius: 40px;
+    width: 15%;
+    height: 60px;
+    margin-top: 1rem;
+  }
+  .text{
+    width: 40%;
+    margin-top: 1.5rem;
+  }
+  .part-two , .part-four{
+    position: relative;
+    left: 60%;
+  }
+  .testimonial{
+    margin-top: 5rem;
+  }
+  .backside{
+    width:85%;
+    height: 22.6875rem;
+    background: #F8FAFC;
+    margin-left:6.5rem ;
+    box-shadow: 0px 16px 48px #00000029;
+    border-radius:43px;
+    //opacity: 1;
+    position: relative;
+    z-index: 1;
+  }
+  .backimg{
+    width: 5%;
+    height: 5%;
+  }
+  .content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 4rem;
+    margin-left: 4rem;
+    gap: 2rem;
+  }
+  .backtext{
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+   
+  .test-slider{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 3;
+    top:-12rem;
+    margin-left: 18rem;
+  }
+  .wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+   .box{
+    width: 285px;
+    height: 263px;
+    box-shadow: 0px 16px 48px #00000029;
+    border-radius: 30px;
+    font-size: 0.8em;
+    background: #FFFFFF;
+   }
+   .upper-part{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 2rem;
+    margin-left: 1.5rem;
+   }
+   .heading{
+    font-weight: bold;
+   }
+   .sub-heading{
+    margin-left: 5.3rem;
+    margin-top: -1rem;
+   }
+   .main-para{
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    font-size: 0.7rem;
+   }
+   .fa-star{
+    color: gold;
+   }
+
+   .arrow{
+    width: 4rem;
+    height: 4rem;
+    box-shadow: 0px 16px 48px #00000029;
+    border-radius: 80px;
+    font-size: 1.3rem;
+    background: #FFFFFF;
+    margin-left: 4rem;
+    margin-top: 4rem;
+   }
+
+   .arrow-sign{
+    padding-top: 1.5rem;
+    margin-left: 1.5rem;
+   }
+
+   .ads{
+    padding-top: 15rem;
+    padding-bottom: 10rem;
+   }
+
+   .company{
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+
+   }
+
+   .brandpicthree{
+    width: 5rem;
+    height: 5rem;
+   }
+
+   .brandname-one{
+    padding-top: 2rem;
+    margin-left: 3rem;
+   }
+   .brandname-two{
+    margin-top: -1rem;
+   }
+   .brandname-three{
+    padding-top: 0.5rem;
+   }
+
+   .end{
+    width: 100%;
+    height: 50vh;
+    background-color: #000000;
+   }
+  
+   .lasttext{
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    font-weight: bold;
+    margin-left: 35rem;
+    padding-top: 20rem;
+    font-size: medium;
+   }
